@@ -5,14 +5,14 @@ import {
   Phone,
   MapPin,
   Facebook,
-  Twitter,
   Instagram,
-  Linkedin,
 } from "lucide-react";
+import logo from "../assets/navbar/logo.png"
+
 
 export default function Footer() {
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <footer className="bg-black text-white">
       <div className="container mx-auto py-12 px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center md:text-left">
           
@@ -20,7 +20,7 @@ export default function Footer() {
           <div className="space-y-4 flex flex-col items-center md:items-start">
             <Link to="/" className="flex items-center space-x-2">
               <img
-                src="/images/amtech.jpeg"
+                src={logo}
                 alt="Amtech Logo"
                 width={42}
                 height={42}
@@ -106,24 +106,14 @@ export default function Footer() {
               >
                 <Facebook className="h-6 w-6" />
               </a>
-              <a
-                href="#"
-                className="text-muted-foreground hover:text-primary-foreground transition-colors"
-              >
-                <Twitter className="h-6 w-6" />
-              </a>
+             
               <a
                 href="#"
                 className="text-muted-foreground hover:text-primary-foreground transition-colors"
               >
                 <Instagram className="h-6 w-6" />
               </a>
-              <a
-                href="#"
-                className="text-muted-foreground hover:text-primary-foreground transition-colors"
-              >
-                <Linkedin className="h-6 w-6" />
-              </a>
+             
             </div>
           </div>
         </div>
