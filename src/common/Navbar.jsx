@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Menu, ChevronDown } from "lucide-react";
 import logo from "../assets/navbar/logo.png";
 
@@ -14,39 +14,46 @@ export default function Navbar() {
     Construction: ["Wooden Doors", "Windows", "Flooring"],
   };
 
+  // ✅ Style for active NavLink
+  const navLinkClass = ({ isActive }) =>
+    `font-medium transition-colors ${
+      isActive ? "text-primary" : "text-gray-600 hover:text-primary"
+    }`;
+
   return (
     <header className="sticky top-0 z-40 w-full bg-white shadow-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         {/* Logo */}
-        <Link to="/" className="flex items-center space-x-2">
+        <NavLink to="/" className="flex items-center space-x-2">
           <img src={logo} alt="Amtech Logo" className="h-14 w-14 rounded" />
-        </Link>
+        </NavLink>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6">
-          <Link
-            to="/"
-            className="text-gray-600 hover:text-primary font-medium transition-colors"
-          >
+          <NavLink to="/" className={navLinkClass}>
             Home
-          </Link>
+          </NavLink>
 
-          <Link
-            to="/about"
-            className="text-gray-600 hover:text-primary font-medium transition-colors"
-          >
+          <NavLink to="/about" className={navLinkClass}>
             About
-          </Link>
+          </NavLink>
 
           {/* Wholesale Dropdown */}
           <div className="relative group">
-            <Link
+            <NavLink
               to="/wholesale/construction"
-              className="flex items-center text-gray-600 hover:text-primary font-medium transition-colors"
+              className={({ isActive }) =>
+                `flex items-center font-medium transition-colors ${
+                  isActive
+                    ? "text-primary"
+                    : "text-gray-600 hover:text-primary"
+                }`
+              }
             >
               Wholesale
               <ChevronDown className="ml-1 h-4 w-4" />
-            </Link>
+            </NavLink>
+
             <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg border mt-2 rounded-md w-52">
               <ul className="py-2">
                 {Object.keys(menuItems).map((category) => (
@@ -57,12 +64,12 @@ export default function Navbar() {
                     <ul className="pl-4 pb-2">
                       {menuItems[category].map((item) => (
                         <li key={item}>
-                          <Link
+                          <NavLink
                             to="/wholesale/construction"
                             className="block px-4 py-1 text-sm text-gray-600 hover:text-primary"
                           >
                             {item}
-                          </Link>
+                          </NavLink>
                         </li>
                       ))}
                     </ul>
@@ -72,12 +79,9 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link
-            to="/contact"
-            className="text-gray-600 hover:text-primary font-medium transition-colors"
-          >
+          <NavLink to="/contact" className={navLinkClass}>
             Contact
-          </Link>
+          </NavLink>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -93,34 +97,34 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden bg-white border-t shadow-sm">
           <nav className="flex flex-col space-y-2 p-4">
-            <Link
+            <NavLink
               to="/"
-              className="text-gray-700 hover:text-primary font-medium"
+              className={navLinkClass}
               onClick={() => setMenuOpen(false)}
             >
               Home
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/about"
-              className="text-gray-700 hover:text-primary font-medium"
+              className={navLinkClass}
               onClick={() => setMenuOpen(false)}
             >
               About
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/wholesale/construction"
-              className="text-gray-700 hover:text-primary font-medium"
+              className={navLinkClass}
               onClick={() => setMenuOpen(false)}
             >
               Wholesale
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/contact"
-              className="text-gray-700 hover:text-primary font-medium"
+              className={navLinkClass}
               onClick={() => setMenuOpen(false)}
             >
               Contact
-            </Link>
+            </NavLink>
           </nav>
         </div>
       )}
