@@ -80,7 +80,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4" />
                 <span className="text-muted-foreground">
-                  contact@amtech.com
+                  info@amtech-industries.com
                 </span>
               </li>
               <li className="flex items-center gap-3">

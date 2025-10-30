@@ -2,6 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import placeholderData from "@/assets/placeholderImages.json";
 import hero from "../assets/about/hero.jpg"
+import hero1 from "../assets/about/hero1.jpg"
+import hero2 from "../assets/about/hero2.jpg"
+
 
 const getLocalImage = (key) => {
   const images = {
@@ -96,8 +99,8 @@ export default function AboutPage() {
               className="relative aspect-square"
             >
               <img
-                src={getLocalImage("about_workout").url}
-                alt={getLocalImage("about_workout").hint}
+                src={hero1}
+                alt="image"
                 className="object-cover w-full h-full rounded-lg"
               />
             </motion.div>
@@ -117,8 +120,8 @@ export default function AboutPage() {
               className="relative"
             >
               <img
-                src={getLocalImage("about_white_label").url}
-                alt={getLocalImage("about_white_label").hint}
+                src={hero2}
+                alt="image"
                 className="object-cover w-full h-full rounded-lg"
               />
             </motion.div>
@@ -148,8 +151,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 👜 JSON Images Preview (Example use of placeholderImages.json) */}
-      <section className="py-16 bg-white text-center">
+      {/* <section className="py-16 bg-white text-center">
         <h2 className="text-2xl font-bold mb-6 text-primary">
           Sample JSON Images
         </h2>
@@ -172,7 +174,7 @@ export default function AboutPage() {
             </motion.div>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
