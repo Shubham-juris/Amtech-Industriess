@@ -10,7 +10,7 @@ import shoes from "../../assets/home/shoes.jpg";
 import kids from "../../assets/home/kids.jpg";
 import menCasual from "../../assets/home/mencasual.jpg";
 import smart from "../../assets/home/fannel.jpg";
-// import activewear from "../../assets/home/activewear.jpg";
+import activewear from "../../assets/home/activewear.jpg";
 import sport from "../../assets/home/sport.jpg";
 import dance from "../../assets/home/2.jpg";
 import tennis from "../../assets/home/tennis.jpg";
@@ -25,7 +25,7 @@ const categories = [
   { name: 'Kids', href: '/wholesale/kids/little-4-7-yrs', image: kids },
   { name: 'Men', href: '/wholesale/men/men-shirts', image: menCasual },
   { name: 'Mens Shirts', href: '/wholesale/men/men-shirts', image: smart },
-  { name: 'Activewear', href: '/wholesale/running-fitness/activewear', image: "activewear" },
+  { name: 'Activewear', href: '/wholesale/running-fitness/activewear', image: activewear },
   { name: 'Sports', href: '/wholesale/sports/athletics', image: sport },
   { name: 'Dance Wear', href: '/wholesale/sports/dance-wear', image: dance },
   { name: 'Tennis', href: '/wholesale/sports/tennis', image: tennis },
@@ -34,7 +34,6 @@ const categories = [
   { name: 'Compression', href: '/wholesale/running-fitness/compression', image: smart },
 ];
 
-// ✅ Carousel Config
 const TICKER_INTERVAL = 3000;
 const ITEMS_TO_SHOW = 4;
 
@@ -113,7 +112,6 @@ const FeaturedCategories = () => {
         </div>
       </div>
 
-      {/* ✅ Right - Text & Arrows */}
       <div className="lg:col-span-2 bg-black text-white flex flex-col justify-center items-center text-center p-8 lg:p-16">
         <h2 className="font-serif text-4xl font-bold mb-4 leading-tight">
           FEATURED <br /> CATEGORIES

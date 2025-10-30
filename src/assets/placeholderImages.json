@@ -1,0 +1,562 @@
+{
+  "placeholderImages": [
+    {
+      "id": "bag1",
+      "description": "A man holding a brown travel bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1557160836-f3a6d1afaab2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0cmF2ZWwlMjBiYWd8ZW58MHx8fHwxNzU4NjA0MjcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "travel bag"
+    },
+    {
+      "id": "bag2",
+      "description": "A woman with a classy brown handbag.",
+      "imageUrl": "https://images.unsplash.com/photo-1600857062241-98e5dba7f214?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYW5kYmFnfGVufDB8fHx8MTc1ODYxMDI2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handbag"
+    },
+    {
+      "id": "bag3",
+      "description": "A woman holding a white tote bag with an ethnic print.",
+      "imageUrl": "https://images.unsplash.com/photo-1661347365630-8df7327cdd71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dG90ZSUyMGJhZ3xlbnwwfHx8fDE3NTg1ODYwOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tote bag"
+    },
+    {
+      "id": "bag4",
+      "description": "A woman with a white and blue sling bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1640101942856-235e70ac230c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2xpbmclMjBiYWd8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sling bag"
+    },
+    {
+      "id": "bag5",
+      "description": "A woman holding a tan brown textured bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1709303014108-5d988f63864f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGV4dHVyZWQlMjBiYWd8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "textured bag"
+    },
+    {
+      "id": "bag6",
+      "description": "A woman with a chic gray circular bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1758274251785-72758ded4798?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaXJjdWxhciUyMGJhZ3xlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "circular bag"
+    },
+    {
+      "id": "bag7",
+      "description": "A woman in a purple dress with a black sling bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1542957057-debadce4ce81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlbWJlbGxpc2hlZCUyMGJhZ3xlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "embellished bag"
+    },
+    {
+      "id": "bag8",
+      "description": "A woman holding a futuristic silver handbag.",
+      "imageUrl": "https://images.unsplash.com/photo-1643736871133-c9f708c3d3cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzaWx2ZXIlMjBoYW5kYmFnfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silver handbag"
+    },
+    {
+      "id": "bag9",
+      "description": "A classic black sports bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1715761195783-64f70b4608ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzcG9ydHMlMjBiYWd8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sports bag"
+    },
+    {
+      "id": "bag10",
+      "description": "A red and black gym bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1689007657910-544b2dea3bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxneW0lMjBiYWd8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gym bag"
+    },
+    {
+      "id": "bag11",
+      "description": "A green and black bag for fishing rods or similar equipment.",
+      "imageUrl": "https://images.unsplash.com/photo-1644864898767-bebc65595f81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlcXVpcG1lbnQlMjBiYWd8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "equipment bag"
+    },
+    {
+      "id": "bag12",
+      "description": "A black and gray duffle bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1448582649076-3981753123b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkdWZmbGUlMjBiYWd8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "duffle bag"
+    },
+    {
+      "id": "bag13",
+      "description": "A sturdy hiking backpack.",
+      "imageUrl": "https://images.unsplash.com/photo-1592388748465-8c4dca8dd703?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoaWtpbmclMjBiYWNrcGFja3xlbnwwfHx8fDE3NTg1OTA4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hiking backpack"
+    },
+    {
+      "id": "bag14",
+      "description": "A sleek black laptop bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1522198763288-96e9f39904af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsYXB0b3AlMjBiYWd8ZW58MHx8fHwxNzU4NTk0Nzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop bag"
+    },
+    {
+      "id": "bag15",
+      "description": "A versatile messenger bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1710170623360-2699027abf4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtZXNzZW5nZXIlMjBiYWd8ZW58MHx8fHwxNzU4NjIwNjk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "messenger bag"
+    },
+    {
+      "id": "cap1",
+      "description": "Man wearing a classic baseball cap backwards.",
+      "imageUrl": "https://images.unsplash.com/photo-1539572511325-71494a030b12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmFzZWJhbGwlMjBjYXB8ZW58MHx8fHwxNzU4NjAyNzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "baseball cap"
+    },
+    {
+      "id": "cap2",
+      "description": "A person wearing a warm wool beanie in the city.",
+      "imageUrl": "https://images.unsplash.com/photo-1657129697002-511205d33659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b29sJTIwYmVhbmllfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wool beanie"
+    },
+    {
+      "id": "cap3",
+      "description": "A person in a stylish snapback hat.",
+      "imageUrl": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbmFwYmFjayUyMGhhdHxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "snapback hat"
+    },
+    {
+      "id": "cap4",
+      "description": "A person wearing a trendy bucket hat outdoors.",
+      "imageUrl": "https://images.unsplash.com/photo-1624518681328-bc59eefa1ce4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidWNrZXQlMjBoYXR8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bucket hat"
+    },
+    {
+      "id": "cap5",
+      "description": "A person in a classic trucker hat.",
+      "imageUrl": "https://images.unsplash.com/photo-1733127547242-42a2e7ac12bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0cnVja2VyJTIwaGF0fGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "trucker hat"
+    },
+    {
+      "id": "cap6",
+      "description": "A person in a flat cap.",
+      "imageUrl": "https://images.unsplash.com/photo-1723066496768-a1d3bbced7df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmbGF0JTIwY2FwfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flat cap"
+    },
+    {
+      "id": "cap7",
+      "description": "A person wearing a newsboy cap.",
+      "imageUrl": "https://images.unsplash.com/photo-1568127703071-9cebb201b6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxuZXdzYm95JTIwY2FwfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "newsboy cap"
+    },
+    {
+      "id": "cap8",
+      "description": "A person in a sun visor.",
+      "imageUrl": "https://images.unsplash.com/photo-1757009631808-5c9ff409ea75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdW4lMjB2aXNvcnxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sun visor"
+    },
+    {
+      "id": "cap9",
+      "description": "A person in a beret.",
+      "imageUrl": "https://images.unsplash.com/photo-1611008308202-220bab345038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiZXJldHxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beret"
+    },
+    {
+      "id": "cap10",
+      "description": "A person wearing a fedora.",
+      "imageUrl": "https://images.unsplash.com/photo-1688685567129-f9398bc90372?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmZWRvcmF8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fedora"
+    },
+    {
+      "id": "cap11",
+      "description": "A person in a trapper hat.",
+      "imageUrl": "https://images.unsplash.com/photo-1639831503156-24855004af1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0cmFwcGVyJTIwaGF0fGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "trapper hat"
+    },
+    {
+      "id": "cap12",
+      "description": "A person wearing a beanie with a pom-pom.",
+      "imageUrl": "https://images.unsplash.com/photo-1648324298657-63341093b4b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwb21wb20lMjBiZWFuaWV8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pompom beanie"
+    },
+    {
+      "id": "cap13",
+      "description": "A person in a dad hat.",
+      "imageUrl": "https://images.unsplash.com/photo-1516094811615-0762612209d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYWQlMjBoYXR8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dad hat"
+    },
+    {
+      "id": "cap14",
+      "description": "A person in a wide-brimmed sun hat.",
+      "imageUrl": "https://images.unsplash.com/photo-1612965292639-cd322db5ff9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdW4lMjBoYXR8ZW58MHx8fHwxNzU4NjE5Mjc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sun hat"
+    },
+    {
+      "id": "cap15",
+      "description": "A person wearing a simple black cap.",
+      "imageUrl": "https://images.unsplash.com/photo-1625988361687-2999d3db96dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmxhY2slMjBjYXB8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "black cap"
+    },
+    {
+      "id": "scarf1",
+      "description": "A person wearing a cozy wool scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1609803384069-19f3e5a70e75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b29sJTIwc2NhcmZ8ZW58MHx8fHwxNzU4NTk0Nzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wool scarf"
+    },
+    {
+      "id": "scarf2",
+      "description": "A lightweight silk scarf with a floral print.",
+      "imageUrl": "https://images.unsplash.com/photo-1637273472424-902dea95b78e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2lsayUyMHNjYXJmfGVufDB8fHx8MTc1ODYwNTE1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silk scarf"
+    },
+    {
+      "id": "scarf3",
+      "description": "A person wearing a stylish infinity scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1648457147590-ef7dbec3cfc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpbmZpbml0eSUyMHNjYXJmfGVufDB8fHx8MTc1ODYyODgyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "infinity scarf"
+    },
+    {
+      "id": "scarf4",
+      "description": "A plaid cashmere scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1638256049278-0899dbe29aec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYXNobWVyZSUyMHNjYXJmfGVufDB8fHx8MTc1ODYxNjY1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cashmere scarf"
+    },
+    {
+      "id": "scarf5",
+      "description": "A chunky knit scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1572371179162-9c0141483610?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrbml0JTIwc2NhcmZ8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "knit scarf"
+    },
+    {
+      "id": "scarf6",
+      "description": "A fringed pashmina scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1560080146-ba5bc1880522?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwYXNobWluYSUyMHNjYXJmfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pashmina scarf"
+    },
+    {
+      "id": "scarf7",
+      "description": "A cotton bandana scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1565668314401-6108d16f377f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5kYW5hJTIwc2NhcmZ8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bandana scarf"
+    },
+    {
+      "id": "scarf8",
+      "description": "A person wearing a neck gaiter scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1700754271921-5b9789546012?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuZWNrJTIwZ2FpdGVyfGVufDB8fHx8MTc1ODYxMDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "neck gaiter"
+    },
+    {
+      "id": "scarf9",
+      "description": "A square satin scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1620740199226-2420c2fcaa18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzYXRpbiUyMHNjYXJmfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "satin scarf"
+    },
+    {
+      "id": "scarf10",
+      "description": "A fleece winter scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1715866568589-ac5a406eda54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmbGVlY2UlMjBzY2FyZnxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fleece scarf"
+    },
+    {
+      "id": "scarf11",
+      "description": "A lightweight linen scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1715526411317-3b22e9cd11db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsaW5lbiUyMHNjYXJmfGVufDB8fHx8MTc1ODU5ODk4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "linen scarf"
+    },
+    {
+      "id": "scarf12",
+      "description": "A shawl wrap scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1539346471381-191ffce95e06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaGF3bCUyMHNjYXJmfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shawl scarf"
+    },
+    {
+      "id": "scarf13",
+      "description": "A hooded scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1715526411317-3b22e9cd11db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob29kZWQlMjBzY2FyZnxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hooded scarf"
+    },
+    {
+      "id": "scarf14",
+      "description": "A triangular kerchief scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1677478989068-38a2f447ab44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrZXJjaGllZiUyMHNjYXJmfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kerchief scarf"
+    },
+    {
+      "id": "scarf15",
+      "description": "A vintage-style scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1617339847481-82cc5667ab92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dmludGFnZSUyMHNjYXJmfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage scarf"
+    },
+    {
+      "id": "sleepwear1",
+      "description": "A comfortable cotton pajama set.",
+      "imageUrl": "https://images.unsplash.com/photo-1693987658148-b3df5dbbbf91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwYWphbWElMjBzZXR8ZW58MHx8fHwxNzU4NjI4ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pajama set"
+    },
+    {
+      "id": "sleepwear2",
+      "description": "A luxurious silk nightgown.",
+      "imageUrl": "https://images.unsplash.com/photo-1737569943952-7b81fc3b3ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzaWxrJTIwbmlnaHRnb3dufGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silk nightgown"
+    },
+    {
+      "id": "sleepwear3",
+      "description": "A cozy flannel pajama set.",
+      "imageUrl": "https://images.unsplash.com/photo-1730523169418-9d9b0fe91e47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmbGFubmVsJTIwcGFqYW1hc3xlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flannel pajamas"
+    },
+    {
+      "id": "sleepwear4",
+      "description": "A plush fleece robe.",
+      "imageUrl": "https://images.unsplash.com/photo-1639654803583-7c616d7e0b6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmbGVlY2UlMjByb2JlfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fleece robe"
+    },
+    {
+      "id": "sleepwear5",
+      "description": "A short pajama set with shorts and a tank top.",
+      "imageUrl": "https://images.unsplash.com/photo-1693989253861-3327f2f2b759?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzaG9ydCUyMHBhamFtYXN8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "short pajamas"
+    },
+    {
+      "id": "sleepwear6",
+      "description": "A satin chemise.",
+      "imageUrl": "https://images.unsplash.com/photo-1632773004171-02bc1c4a726a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2F0aW4lMjBjaGVtaXNlfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "satin chemise"
+    },
+    {
+      "id": "sleepwear7",
+      "description": "A onesie pajama.",
+      "imageUrl": "https://images.unsplash.com/photo-1753105091353-cee0566933f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvbmVzaWUlMjBwYWphbWF8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "onesie pajama"
+    },
+    {
+      "id": "sleepwear8",
+      "description": "A thermal pajama set.",
+      "imageUrl": "https://images.unsplash.com/photo-1693988505497-9d4f6955e6a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0aGVybWFsJTIwcGFqYW1hc3xlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thermal pajamas"
+    },
+    {
+      "id": "sleepwear9",
+      "description": "A babydoll nightie.",
+      "imageUrl": "https://images.unsplash.com/photo-1602887627273-85fff2433015?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiYWJ5ZG9sbCUyMG5pZ2h0aWV8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "babydoll nightie"
+    },
+    {
+      "id": "sleepwear10",
+      "description": "A lightweight jersey nightshirt.",
+      "imageUrl": "https://images.unsplash.com/photo-1644860588182-0998b4ef5587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxqZXJzZXklMjBuaWdodHNoaXJ0fGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jersey nightshirt"
+    },
+    {
+      "id": "sleepwear11",
+      "description": "A long-sleeved pajama top.",
+      "imageUrl": "https://images.unsplash.com/photo-1673083605449-7ad8e5c6f630?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsb25nLXNsZWV2ZSUyMHBhamFtYXxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "long-sleeve pajama"
+    },
+    {
+      "id": "sleepwear12",
+      "description": "A pair of lounge pants.",
+      "imageUrl": "https://images.unsplash.com/photo-1758611970372-53103a11d64e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsb3VuZ2UlMjBwYW50c3xlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lounge pants"
+    },
+    {
+      "id": "sleepwear13",
+      "description": "A sleep romper.",
+      "imageUrl": "https://images.unsplash.com/photo-1580643340421-3555b5c0ff2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzbGVlcCUyMHJvbXBlcnxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sleep romper"
+    },
+    {
+      "id": "sleepwear14",
+      "description": "A waffle-knit sleep set.",
+      "imageUrl": "https://images.unsplash.com/photo-1664297936912-6c7af7f2c83e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3YWZmbGUta25pdCUyMHNsZWVwd2VhcnxlbnwwfHx8fDE3NTg2Mjg4Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "waffle-knit sleepwear"
+    },
+    {
+      "id": "sleepwear15",
+      "description": "A hooded sleep sweatshirt.",
+      "imageUrl": "https://images.unsplash.com/photo-1593733926335-bdec7f12acfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxob29kZWQlMjBzbGVlcHNoaXJ0fGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hooded sleepshirt"
+    },
+    {
+      "id": "sock1",
+      "description": "A pair of classic crew socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1734523506801-8e3c608ba22b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3JldyUyMHNvY2tzfGVufDB8fHx8MTc1ODYyODgyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crew socks"
+    },
+    {
+      "id": "sock2",
+      "description": "A pair of no-show ankle socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1641482850218-7a2fed872551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhbmtsZSUyMHNvY2tzfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ankle socks"
+    },
+    {
+      "id": "sock3",
+      "description": "A pair of cozy wool socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1603487742293-ccb3eafe20ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b29sJTIwc29ja3N8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wool socks"
+    },
+    {
+      "id": "sock4",
+      "description": "A pair of athletic performance socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1622866654076-8b960fc327ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhdGhsZXRpYyUyMHNvY2tzfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "athletic socks"
+    },
+    {
+      "id": "sock5",
+      "description": "A pair of patterned dress socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1731936757625-c55d4ab0b4df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkcmVzcyUyMHNvY2tzfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dress socks"
+    },
+    {
+      "id": "sock6",
+      "description": "A pair of compression socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1598031018189-fa4e3f3b03f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wcmVzc2lvbiUyMHNvY2tzfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "compression socks"
+    },
+    {
+      "id": "sock7",
+      "description": "A pair of fuzzy slipper socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1598818432520-f57c636e9301?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzbGlwcGVyJTIwc29ja3N8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "slipper socks"
+    },
+    {
+      "id": "sock8",
+      "description": "A pair of quarter-length socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1730923179125-4ae9a0cae968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxxdWFydGVyJTIwc29ja3N8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quarter socks"
+    },
+    {
+      "id": "sock9",
+      "description": "A pair of knee-high socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1656792941334-66f8e5e184a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrbmVlLWhpZ2glMjBzb2Nrc3xlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "knee-high socks"
+    },
+    {
+      "id": "sock10",
+      "description": "A pair of novelty graphic socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1640026199235-c24aa417b552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxncmFwaGljJTIwc29ja3N8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "graphic socks"
+    },
+    {
+      "id": "sock11",
+      "description": "A pair of thermal boot socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1621840184672-489e8e569742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib290JTIwc29ja3N8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "boot socks"
+    },
+    {
+      "id": "sock12",
+      "description": "A pair of thigh-high socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1665215293713-867ca4205653?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0aGlnaC1oaWdoJTIwc29ja3N8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thigh-high socks"
+    },
+    {
+      "id": "sock13",
+      "description": "A pair of tabi socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1640348307421-83b15b62a73d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0YWJpJTIwc29ja3N8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tabi socks"
+    },
+    {
+      "id": "sock14",
+      "description": "A pair of argyle socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1513135758017-cf594a129358?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmd5bGUlMjBzb2Nrc3xlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "argyle socks"
+    },
+    {
+      "id": "sock15",
+      "description": "A pair of cotton tube socks.",
+      "imageUrl": "https://images.unsplash.com/photo-1730923179125-4ae9a0cae968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0dWJlJTIwc29ja3N8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tube socks"
+    },
+    {
+      "id": "towel1",
+      "description": "A plush cotton bath towel.",
+      "imageUrl": "https://images.unsplash.com/photo-1583294506577-7f1217aca9fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiYXRoJTIwdG93ZWx8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bath towel"
+    },
+    {
+      "id": "towel2",
+      "description": "A set of soft hand towels.",
+      "imageUrl": "https://images.unsplash.com/photo-1719957770743-5040a9ed16d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYW5kJTIwdG93ZWx8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hand towel"
+    },
+    {
+      "id": "towel3",
+      "description": "A quick-dry beach towel.",
+      "imageUrl": "https://images.unsplash.com/photo-1487977352961-6c1d15aa87c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmVhY2glMjB0b3dlbHxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach towel"
+    },
+    {
+      "id": "towel4",
+      "description": "A luxurious Egyptian cotton towel set.",
+      "imageUrl": "https://images.unsplash.com/photo-1596748176765-08b3a6c9969a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0b3dlbCUyMHNldHxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "towel set"
+    },
+    {
+      "id": "towel5",
+      "description": "A compact microfiber travel towel.",
+      "imageUrl": "https://images.unsplash.com/photo-1664227430687-9299c593e3da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjB0b3dlbHxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "travel towel"
+    },
+    {
+      "id": "towel6",
+      "description": "A set of washcloths.",
+      "imageUrl": "https://images.unsplash.com/photo-1709477542163-823132f4356a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3YXNoY2xvdGhzfGVufDB8fHx8MTc1ODYyODgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "washcloths"
+    },
+    {
+      "id": "towel7",
+      "description": "A hooded towel for kids.",
+      "imageUrl": "https://images.unsplash.com/photo-1737061467396-39aac10feb47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob29kZWQlMjB0b3dlbHxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hooded towel"
+    },
+    {
+      "id": "towel8",
+      "description": "A patterned kitchen towel set.",
+      "imageUrl": "https://images.unsplash.com/photo-1643150899069-a748f9216f99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxraXRjaGVuJTIwdG93ZWx8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kitchen towel"
+    },
+    {
+      "id": "towel9",
+      "description": "A gym towel with a hanging loop.",
+      "imageUrl": "https://images.unsplash.com/photo-1665570540490-6caba685dbcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxneW0lMjB0b3dlbHxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gym towel"
+    },
+    {
+      "id": "towel10",
+      "description": "A Turkish peshtemal towel.",
+      "imageUrl": "https://images.unsplash.com/photo-1737044971301-6f478e2ab753?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVzaHRlbWFsJTIwdG93ZWx8ZW58MHx8fHwxNzU4NjI4ODI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "peshtemal towel"
+    },
+    {
+      "id": "towel11",
+      "description": "A waffle-weave bath towel.",
+      "imageUrl": "https://images.unsplash.com/photo-1585393311625-8be690ea2845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3YWZmbGUlMjB0b3dlbHxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "waffle towel"
+    },
+    {
+      "id": "towel12",
+      "description": "A decorative fingertip towel.",
+      "imageUrl": "https://images.unsplash.com/photo-1654773125909-6d73f0c12407?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmaW5nZXJ0aXAlMjB0b3dlbHxlbnwwfHx8fDE3NTg2Mjg4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fingertip towel"
+    },
+    {
+      "id": "towel13",
+      "description": "A large bath sheet.",
+      "imageUrl": "https://images.unsplash.com/photo-1658893775681-2bc58baae63e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiYXRoJTIwc2hlZXR8ZW58MHx8fHwxNzU4NjI4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bath sheet"
+    },
+    {
+      "id": "about_hero",
+      "description": "A group of people in sportswear.",
+      "imageUrl": "https://images.unsplash.com/photo-1758599880788-414bf6400e2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZW9wbGUlMjBzcG9ydHN3ZWFyfGVufDB8fHx8MTc1ODYzMTQ5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "people sportswear"
+    },
+    {
+      "id": "about_workout",
+      "description": "A woman doing ab exercises on a pink yoga mat.",
+      "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHdvcmtvdXR8ZW58MHx8fHwxNzU4NjE4NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman workout"
+    },
+    {
+      "id": "about_white_label",
+      "description": "Woman with red hair wearing a brown hat and coat.",
+      "imageUrl": "https://images.unsplash.com/photo-1593476087123-36d1de271f08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMGhhdHxlbnwwfHx8fDE3NTg1OTM3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman hat"
+    },
+    {
+      "id": "manufacturers_hero",
+      "description": "Three women posing in different stylish outfits against a plain background.",
+      "imageUrl": "https://images.unsplash.com/photo-1512437295325-8ef96e1741a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMG1vZGVsc3xlbnwwfHx8fDE3NTg2MzI4MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women models"
+    },
+    {
+      "id": "contact_hero",
+      "description": "Woman drinking coffee while working",
+      "imageUrl": "https://images.unsplash.com/photo-1545386673-7723f55e5490?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGNvZmZlZXxlbnwwfHx8fDE3NTg2MzMyNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman coffee"
+    }
+  ]
+}
