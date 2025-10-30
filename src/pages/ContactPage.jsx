@@ -17,7 +17,7 @@ export default function ContactPage() {
     {
       name: "5017 50 Street",
       address: "1750 Brittania Rd East, Mississauga",
-      phone: "+1 (234) 567-890",
+      phone: "7808702905",
       email: "info@amtech-industries.com",
       mapSrc:
         "https://www.google.com/maps?q=1750+Brittania+Rd+East,+Mississauga,+ON,+Canada&output=embed",
