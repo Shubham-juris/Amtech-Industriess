@@ -56,7 +56,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/wholesale"
+                  to="/wholesale/construction"
                   className="text-muted-foreground hover:text-primary-foreground transition-colors"
                 >
                   Wholesale
