@@ -4,7 +4,7 @@ import img1 from "../../assets/home/sport.jpg";
 import img2 from "../../assets/home/eggshell.jpg";
 import img3 from "../../assets/home/sporty1.jpg";
 import img4 from "../../assets/home/sporty2.jpg";
-import main from "../../assets/home/main.jpg";
+import main from "../../assets/home/main2.jpg";
 
 export default function Sporty() {
   const products = [
