@@ -5,17 +5,19 @@ import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
 import Construction from "../pages/Construction";
 import ScrollToTop from "../pages/TaptoScroll";
+import Warehouse from "../pages/Warehouse";
 
 const RouterPage = () => {
   return (
     <>
-    <ScrollToTop/>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-         <Route path="/wholesale/construction" element={<Construction />} />
+        <Route path="/warehouse" element={<Warehouse />} />
 
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/wholesale/construction" element={<Construction />} />
       </Routes>
     </>
   );
