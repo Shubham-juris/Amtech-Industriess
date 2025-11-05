@@ -172,17 +172,7 @@ export default function Warehouse() {
           </form>
         </div>
       </section>
-
-      {/* FOOTER */}
-      <footer className="bg-gray-900 text-gray-300 py-8 text-center">
-        <h4 className="font-bold text-white text-lg">Amtech-Industry</h4>
-        <p className="text-sm">
-          Reliable Warehousing • $99 Cross-Job Fulfillment • Industrial Storage
-        </p>
-        <p className="text-xs text-gray-500 mt-2">
-          © {new Date().getFullYear()} Amtech-Industry. All rights reserved.
-        </p>
-      </footer>
+      
     </main>
   );
 }
