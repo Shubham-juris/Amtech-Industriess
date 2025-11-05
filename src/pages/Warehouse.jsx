@@ -14,7 +14,7 @@ export default function Warehouse() {
             <p className="mt-5 text-lg text-white/90">
               Get{" "}
               <span className="font-semibold">$99 Cross-Job Fulfillment</span>{" "}
-              and the most affordable, fully managed warehouses across Canada.
+              and the most affordable, fully managed warehouses.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
@@ -103,7 +103,6 @@ export default function Warehouse() {
               </p>
               <ul className="text-gray-600 space-y-2 text-sm">
                 <li>• Cross-job posting</li>
-                <li>• Shared 200 sq.ft. space</li>
                 <li>• Pick-pack support</li>
               </ul>
             </div>
