@@ -40,49 +40,9 @@ export default function Navbar() {
           <NavLink to="/warehouse" className={navLinkClass}>
             Warehouse
           </NavLink>
-
-          {/* 🔽 Wholesale Dropdown */}
-          <div
-            className="relative"
-            onMouseEnter={() => setDropdownOpen(true)}
-            onMouseLeave={() => setDropdownOpen(false)}
-          >
-            <button className="flex items-center font-medium text-gray-700 hover:text-blue-600 transition-colors">
-              Wholesale
-              <ChevronDown className="ml-1 h-4 w-4" />
-            </button>
-
-            {/* Dropdown */}
-            <div
-              className={`absolute left-1/2 transform -translate-x-1/2 mt-3 bg-white border shadow-xl rounded-xl w-96 py-5 transition-all duration-200 ${
-                dropdownOpen
-                  ? "opacity-100 visible translate-y-0"
-                  : "opacity-0 invisible -translate-y-3"
-              }`}
-            >
-              <ul className="grid grid-cols-2 gap-x-8 gap-y-3 px-8">
-                {Object.keys(menuItems).map((category) => (
-                  <li key={category}>
-                    <h4 className="font-semibold text-gray-800 mb-2 border-b pb-1 text-sm">
-                      {category}
-                    </h4>
-                    <ul className="space-y-2">
-                      {menuItems[category].map((item) => (
-                        <li key={item}>
-                          <NavLink
-                            to="/wholesale/construction"
-                            className="block text-sm text-gray-600 hover:text-blue-600 hover:translate-x-1 transition-all"
-                          >
-                            {item}
-                          </NavLink>
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+           <NavLink to="/wholesale" className={navLinkClass}>
+            Wholesale
+          </NavLink>
 
           <NavLink to="/contact" className={navLinkClass}>
             Contact
@@ -124,7 +84,7 @@ export default function Navbar() {
               Warehouse
             </NavLink>
             <NavLink
-              to="/wholesale/construction"
+              to="/wholesale"
               className={navLinkClass}
               onClick={() => setMenuOpen(false)}
             >
