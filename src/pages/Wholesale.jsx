@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import localData from "../assets/placeholderImages.json" // 👈 नाम बदला ताकि conflict न हो
+import localData from "../assets/placeholderImages.json"
 
 const Wholesale = () => {
   const [data, setData] = useState([])
@@ -12,14 +12,11 @@ const Wholesale = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // 🧥 Men’s & Women’s Clothing (FakeStore)
         const resMen = await axios.get("https://fakestoreapi.com/products/category/men's clothing")
         const resWomen = await axios.get("https://fakestoreapi.com/products/category/women's clothing")
 
-        // 👞 Shoes (DummyJSON)
         const resShoes = await axios.get("https://dummyjson.com/products/category/mens-shoes")
 
-        // 👜 Manual + JSON Data Merge
         const manualData = [
           {
             id: 'bag-1',
@@ -41,7 +38,6 @@ const Wholesale = () => {
           }
         ]
 
-        // 🧩 Combine All Data
         const combined = [
           ...resMen.data.map(p => ({
             id: `men-${p.id}`,
@@ -67,7 +63,7 @@ const Wholesale = () => {
             title: item.description,
             description: item.imageHint,
             image: item.imageUrl
-          })) // 👈 JSON से भी data add किया
+          })) 
         ]
 
         setData(combined)
