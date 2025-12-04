@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Search } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"; 
+import video from "../../assets/home/video.mp4"
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -16,7 +17,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section with Video Background */}
-      <section className="relative h-[70vh] flex flex-col items-center justify-center text-center text-white bg-black overflow-hidden">
+      <section className="relative h-[80vh] flex flex-col items-center justify-center text-center text-white bg-black overflow-hidden">
         {/* Background Video */}
         <video
           autoPlay
@@ -25,7 +26,7 @@ export default function Home() {
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover opacity-50"
         >
-          <source src="/videos/hero-video.mp4" type="video/mp4" />
+          <source src={video} type="video/mp4" />
         </video>
 
         {/* Hero Text */}

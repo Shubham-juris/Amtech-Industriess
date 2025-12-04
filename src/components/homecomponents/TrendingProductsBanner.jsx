@@ -26,17 +26,15 @@ export default function TrendingProductsBanner() {
               Shop All
             </Link>
 
+            {/* Bigger & Sharper Images */}
             <div className="grid grid-cols-2 gap-4 mt-8">
               {products.map((product) => (
-                <div
-                  key={product.name}
-                  className="group block text-center"
-                >
+                <div key={product.name} className="group block text-center">
                   <div className="overflow-hidden rounded-md shadow-md">
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="object-cover w-full h-80 transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-[230px] md:h-[500px] object-cover object-center transition-transform duration-300 group-hover:scale-105"
                     />
                   </div>
                   <p className="mt-3 text-base font-medium text-gray-700 group-hover:text-primary">
@@ -47,13 +45,13 @@ export default function TrendingProductsBanner() {
             </div>
           </div>
 
-          {/* RIGHT SIDE - Big Image (Centered Vertically) */}
+          {/* RIGHT SIDE - Big Image */}
           <div className="flex justify-center items-center h-full">
-            <div className="relative w-[90%] h-[75vh] overflow-hidden rounded-lg shadow-xl bg-gray-100">
+            <div className="relative w-[92%] h-[82vh] overflow-hidden rounded-xl shadow-xl bg-gray-100">
               <img
                 src={main}
                 alt="Main Banner"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
               />
             </div>
           </div>

@@ -1,10 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import placeholderData from "@/assets/placeholderImages.json";
-import hero from "../assets/about/hero.jpg"
-import hero1 from "../assets/about/hero1.jpg"
-import hero2 from "../assets/about/hero2.jpg"
-
+import hero from "../assets/about/main.jpg";
+import hero1 from "../assets/about/img2.webp";
+import hero2 from "../assets/about/hero2.jpg";
 
 const getLocalImage = (key) => {
   const images = {
@@ -35,13 +34,9 @@ export default function AboutPage() {
   return (
     <div>
       {/* 🌟 Hero Section */}
-      <section className="relative h-[50vh] flex items-center justify-start text-white overflow-hidden">
+      <section className="relative h-[70vh] flex items-center justify-start text-white overflow-hidden">
         <div className="absolute inset-0">
-          <img
-            src={hero}
-            alt="image"
-            className="object-cover w-full h-full"
-          />
+          <img src={hero} alt="image" className="object-cover w-full h-full" />
           <div className="absolute inset-0 bg-black/60" />
           <div
             className="absolute inset-0 "
@@ -96,12 +91,13 @@ export default function AboutPage() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.3 }}
-              className="relative aspect-square"
+              className="relative w-full h-[420px] md:h-[520px]"
             >
               <img
                 src={hero1}
                 alt="image"
-                className="object-cover w-full h-full rounded-lg"
+                className="w-full h-full object-contain md:object-cover rounded-xl shadow-md"
+                style={{ imageRendering: "high-quality" }}
               />
             </motion.div>
           </div>
