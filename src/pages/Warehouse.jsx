@@ -6,7 +6,7 @@ export default function Warehouse() {
     <main className="min-h-screen bg-gray-50 text-gray-900 font-sans">
 <section className="bg-white py-20">
   <div className="max-w-6xl mx-auto px-6">
-    <h2 className="text-3xl font-semibold text-center mb-14">
+    <h2 className="text-3xl font-bold text-blue-700 text-center mb-14">
       Our Services
     </h2>
 
