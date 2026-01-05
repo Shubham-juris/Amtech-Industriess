@@ -85,12 +85,12 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4" />
-                <span className="text-muted-foreground">7808702905</span>
+                <span className="text-muted-foreground">+1 780-870-2905</span>
               </li>
               <li className="flex items-center gap-3">
                 <MapPin className="h-4 w-4" />
                 <span className="text-muted-foreground">
-                  1750 Brittania Rd East, Mississauga
+                  1750 Brittania Rd East, Mississauga, ON, Canada
                 </span>
               </li>
             </ul>
