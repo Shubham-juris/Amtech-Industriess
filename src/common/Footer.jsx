@@ -6,6 +6,7 @@ import {
   MapPin,
   Facebook,
   Instagram,
+  X,
 } from "lucide-react";
 import logo from "../assets/navbar/logo.png"
 
@@ -101,19 +102,25 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/Amtechindustries/"
                 className="text-muted-foreground hover:text-primary-foreground transition-colors"
               >
                 <Facebook className="h-6 w-6" />
               </a>
              
               <a
-                href="#"
+                href="https://www.instagram.com/amtechindustries21/"
                 className="text-muted-foreground hover:text-primary-foreground transition-colors"
               >
                 <Instagram className="h-6 w-6" />
               </a>
-             
+             {/* New X Icon Link */}
+              <a
+                href="https://x.com/AmtechIndustry"
+                className="text-muted-foreground hover:text-primary-foreground transition-colors"
+              >
+                <X className="h-6 w-6" />
+              </a>
             </div>
           </div>
         </div>
