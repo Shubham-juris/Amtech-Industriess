@@ -16,7 +16,7 @@ export default function ContactPage() {
   const officeLocations = [
     {
       name: "5017 50 Street",
-      address: "1750 Brittania Rd East, Mississauga, ON, Canada",
+      address: "1750 Brittania Rd East, Mississauga, ON, Canada" ,
       phone: "+1 780-870-2905",
       email: "info@amtech-industries.com",
       mapSrc:
@@ -92,8 +92,13 @@ export default function ContactPage() {
               <div key={location.name} className="border-b pb-8 mb-8">
                 <h3 className="text-xl font-semibold mb-3">{location.name}</h3>
                 <p className="flex items-start gap-3 text-gray-600 mb-2">
-                  📍 <span>{location.address}</span>
-                </p>
+                    📍
+                    <span>
+                      {location.address}
+                      <br />
+                      Unit 51, 3016 5 Ave NE, Calgary, AB T2A 6K4
+                    </span>
+                  </p>
                 <p className="flex items-center gap-3 text-gray-600 mb-2">
                   ☎️ <span>{location.phone}</span>
                 </p>
