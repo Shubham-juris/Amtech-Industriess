@@ -93,6 +93,10 @@ export default function Footer() {
                 <span className="text-muted-foreground">
                   1750 Brittania Rd East, Mississauga, ON, Canada
                 </span>
+                <MapPin className="h-4 w-4" />
+                <span className="text-muted-foreground">
+                  Unit 51, 3016 5 Ave NE , Calgary, AB T2A 6K4
+                </span>
               </li>
             </ul>
           </div>
